@@ -80,6 +80,8 @@
               "$live/sections/PageInclude.tsx",
               "$live/sections/Slot.tsx",
               "$live/sections/UseSlot.tsx",
+              "deco-sites/fashion/sections/Auth/Auth.239Victor.tsx",
+              "deco-sites/fashion/sections/Auth/Auth.SignIn.tsx",
               "deco-sites/fashion/sections/BannerGrid.tsx",
               "deco-sites/fashion/sections/BannerPLP.tsx",
               "deco-sites/fashion/sections/Carousel.tsx",
@@ -6928,6 +6930,71 @@
       ],
       "title": "deco-cx/live/sections/UseSlot.tsx@Props"
     },
+    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvYXV0aC9BdXRoLjIzOVZpY3Rvci50c3g=@Props": {
+      "type": "object",
+      "properties": {
+        "user": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "title": "Name"
+              },
+              "email": {
+                "type": "string",
+                "title": "Email"
+              },
+              "password": {
+                "type": "string",
+                "title": "Password"
+              }
+            },
+            "required": [
+              "name",
+              "email",
+              "password"
+            ]
+          },
+          "title": "User"
+        }
+      },
+      "required": [
+        "user"
+      ],
+      "title": "deco-sites/fashion/components/auth/Auth.239Victor.tsx@Props"
+    },
+    "ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvYXV0aC9BdXRoLlNpZ25Jbi50c3g=@Props": {
+      "type": "object",
+      "properties": {
+        "user": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "title": "Name"
+              },
+              "password": {
+                "type": "string",
+                "title": "Password"
+              }
+            },
+            "required": [
+              "name",
+              "password"
+            ]
+          },
+          "title": "User"
+        }
+      },
+      "required": [
+        "user"
+      ],
+      "title": "deco-sites/fashion/components/auth/Auth.SignIn.tsx@Props"
+    },
     "ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image": {
       "type": "string",
       "format": "image-uri",
@@ -7502,7 +7569,7 @@
       "required": [],
       "title": "OptionalColors"
     },
-    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS50c3g=@Colors&b966eeb0bbdb3699ee11b12ce6a39cc4": {
+    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS50c3g=@Colors&cda581e607e75db462908625d924695a": {
       "allOf": [
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS50c3g=@Colors"
@@ -7518,7 +7585,7 @@
           "required": []
         }
       ],
-      "title": "Colors&b966eeb0bbdb3699ee11b12ce6a39cc4"
+      "title": "Colors&cda581e607e75db462908625d924695a"
     },
     "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS50c3g=@Miscellaneous": {
       "type": "object",
@@ -7621,7 +7688,7 @@
       "type": "object",
       "properties": {
         "colors": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS50c3g=@Colors&b966eeb0bbdb3699ee11b12ce6a39cc4",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Rlc2lnblN5c3RlbS50c3g=@Colors&cda581e607e75db462908625d924695a",
           "title": "Colors"
         },
         "miscellaneous": {
@@ -10804,6 +10871,48 @@
         }
       }
     },
+    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0F1dGgvQXV0aC4yMzlWaWN0b3IudHN4": {
+      "title": "deco-sites/fashion/sections/Auth/Auth.239Victor.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvYXV0aC9BdXRoLjIzOVZpY3Rvci50c3g=@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/fashion/sections/Auth/Auth.239Victor.tsx"
+          ],
+          "default": "deco-sites/fashion/sections/Auth/Auth.239Victor.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0F1dGgvQXV0aC5TaWduSW4udHN4": {
+      "title": "deco-sites/fashion/sections/Auth/Auth.SignIn.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL2NvbXBvbmVudHMvYXV0aC9BdXRoLlNpZ25Jbi50c3g=@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/fashion/sections/Auth/Auth.SignIn.tsx"
+          ],
+          "default": "deco-sites/fashion/sections/Auth/Auth.SignIn.tsx"
+        }
+      }
+    },
     "ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Jhbm5lckdyaWQudHN4": {
       "title": "deco-sites/fashion/sections/BannerGrid.tsx",
       "type": "object",
@@ -12237,6 +12346,12 @@
         },
         {
           "$ref": "#/definitions/JGxpdmUvc2VjdGlvbnMvVXNlU2xvdC50c3g="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0F1dGgvQXV0aC4yMzlWaWN0b3IudHN4"
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0F1dGgvQXV0aC5TaWduSW4udHN4"
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9mYXNoaW9uL3NlY3Rpb25zL0Jhbm5lckdyaWQudHN4"

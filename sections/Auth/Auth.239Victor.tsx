@@ -1,0 +1,1 @@
+export {default} from "$store/components/auth/Auth.239Victor.tsx";
